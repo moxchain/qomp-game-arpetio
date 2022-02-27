@@ -56,7 +56,7 @@ const Game = (
       );
   
       // add the star sprite and enable arcade physics for the star
-      this.star = this.physics.add.sprite(800, 300, 'star');
+      this.star = this.physics.add.sprite(800, 400, 'star');
   
       // make star bounce
       this.star.setBounce(1);
@@ -105,7 +105,7 @@ const Game = (
     }
   
     createEnemy () {
-      if (this.counterNewEnemy >= 300) {
+      if (this.counterNewEnemy >= 150) {
         const x =  Phaser.Math.Between(460, 640);
         const enemy = this.enemy.create(x, 16, 'enemy');
         enemy.setBounce(1);
@@ -139,6 +139,7 @@ const Game = (
       // Handle Game Over
       if (this.gameOver === true) {
         setTimeout(()=>{
+          this.scene.remove(this)
           params.endGame()
         }, 1000)
         return
@@ -147,6 +148,7 @@ const Game = (
       // Handle Game win
       if (this.gameWin === true) {
         setTimeout(()=>{
+          this.scene.remove(this)
           params.endGame()
         }, 1000)
         return
@@ -160,7 +162,6 @@ const Game = (
     scale: {
       mode: Phaser.Scale.FIT,
       autoCenter: Phaser.Scale.CENTER_BOTH,
-      parent: "thegame",
       width: 640,
       height: 480
   },
@@ -174,7 +175,9 @@ const Game = (
     },
     scene: playGame,
   };
-  return new Phaser.Game(gameConfig);
+  const gameScene = new Phaser.Game(gameConfig);
+
+  return gameScene
 };
 
 export default Game;
