@@ -13,7 +13,7 @@ function Router() {
   useEffect(()=>{
     mox({
       network: 'apertio',
-      serviceUrl: 'http://3.92.91.138:3000'
+      serviceUrl: 'https://arpetio.moxchain.com'
     }).then(modules => {
       setModules(modules)
     })
