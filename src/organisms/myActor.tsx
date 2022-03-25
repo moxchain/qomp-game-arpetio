@@ -5,26 +5,33 @@ import Actor from '../molecules/actor'
 import { GetActor } from '../molecules/getActor'
 
 const MyActor = (params: {
-  setSpeed: React.Dispatch<React.SetStateAction<number | null>>
+  setSpeed: React.Dispatch<React.SetStateAction<number | null>>,
+  setActor: React.Dispatch<React.SetStateAction<{
+    id: string;
+    common_type: number;
+    owner: string;
+    speed: number;
+} | null | undefined>>,
+actor: {
+  id: string;
+  common_type: number;
+  owner: string;
+  speed: number;
+} | null | undefined
 }) => {
 
-  const [actor, setActor] = useState<{
-    id: string
-    common_type: number
-    owner: string
-    speed: number
-  } | null>()
+
 
   useEffect(()=>{
-    if (actor) params.setSpeed(actor.speed)
+    if (params.actor) params.setSpeed(params.actor.speed)
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [actor])
+  }, [params.actor])
 
-  if (!actor) {
-    return <GetActor setActor={setActor}/>
+  if (!params.actor) {
+    return <GetActor setActor={params.setActor}/>
   }
 
-  return <Actor actor={actor}/>
+  return <Actor actor={params.actor}/>
 
 }
 

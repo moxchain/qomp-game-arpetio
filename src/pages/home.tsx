@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Row } from 'react-bootstrap'
 import {
   Button,
@@ -6,6 +6,7 @@ import {
 } from '../atoms'
 import { Header } from '../organisms/header'
 import MyActor from '../organisms/myActor'
+import Items from '../organisms/items'
 import QompGame from '../game'
 import { useState } from 'react'
 
@@ -13,6 +14,16 @@ const HomePage = () => {
 
   const [speed, setSpeed] = useState<number | null>(null)
   const [gameStart, setGameStart] = useState(false)
+  const [actor, setActor] = useState<{
+    id: string
+    common_type: number
+    owner: string
+    speed: number
+  } | null>()
+
+  useEffect(()=>{
+    setSpeed(actor?.speed ?? 300)
+  }, [actor])
 
   const endGame = () => {
     window.location.reload();
@@ -35,12 +46,10 @@ const HomePage = () => {
       </Row>
 
       <Row>
-        <MyActor setSpeed={setSpeed}/>
+        <MyActor actor={actor} setActor={setActor} setSpeed={setSpeed}/>
       </Row>
       <Row>
-        <Title>
-          Consume Speed potion, Slow potion
-        </Title>
+        <Items actor={actor} setActor={setActor}/>
       </Row>
       <Row>
         {gameStart === false && <Button disabled={!speed} onClick={()=>setGameStart(true)}>Start Game</Button>}

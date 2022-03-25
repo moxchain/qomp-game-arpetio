@@ -24,7 +24,7 @@ export const GetActor = (params: {
     const actor = await modules.storage.getActor(actorHash)
     console.log('Actor', actor)
     if (!actor) return
-    // if (actor.owner !== address) return
+    if (actor.owner !== address) return
     // get actor speed
     const speed = await modules.storage.getActorAttribute(actorHash, '0xb8e540f80463545c522611d6a11fd055e901bed49887bbafda7d6dd865b1a650')
     console.log('Speed', speed)

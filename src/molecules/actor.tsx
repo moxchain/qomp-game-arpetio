@@ -16,7 +16,7 @@ const Actor = (params: {
 
   return <Card>
     <Col>
-      <Image src={HeroImg} width='10vh' height='10vh'/>
+      <Image src={HeroImg} width='50vh' height='50vh'/>
     </Col>
     <Col>
       <Row>
