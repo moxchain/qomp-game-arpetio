@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/qomp-game-arpetio/static/css/main.ad6d99d4.chunk.css",
-    "main.js": "/qomp-game-arpetio/static/js/main.f79a90b2.chunk.js",
-    "main.js.map": "/qomp-game-arpetio/static/js/main.f79a90b2.chunk.js.map",
+    "main.js": "/qomp-game-arpetio/static/js/main.a5f7820a.chunk.js",
+    "main.js.map": "/qomp-game-arpetio/static/js/main.a5f7820a.chunk.js.map",
     "runtime-main.js": "/qomp-game-arpetio/static/js/runtime-main.25c0d7e9.js",
     "runtime-main.js.map": "/qomp-game-arpetio/static/js/runtime-main.25c0d7e9.js.map",
-    "static/js/2.6c0f099f.chunk.js": "/qomp-game-arpetio/static/js/2.6c0f099f.chunk.js",
-    "static/js/2.6c0f099f.chunk.js.map": "/qomp-game-arpetio/static/js/2.6c0f099f.chunk.js.map",
+    "static/js/2.651d581e.chunk.js": "/qomp-game-arpetio/static/js/2.651d581e.chunk.js",
+    "static/js/2.651d581e.chunk.js.map": "/qomp-game-arpetio/static/js/2.651d581e.chunk.js.map",
     "static/js/3.24be35e1.chunk.js": "/qomp-game-arpetio/static/js/3.24be35e1.chunk.js",
     "static/js/3.24be35e1.chunk.js.map": "/qomp-game-arpetio/static/js/3.24be35e1.chunk.js.map",
     "index.html": "/qomp-game-arpetio/index.html",
     "static/css/main.ad6d99d4.chunk.css.map": "/qomp-game-arpetio/static/css/main.ad6d99d4.chunk.css.map",
-    "static/js/2.6c0f099f.chunk.js.LICENSE.txt": "/qomp-game-arpetio/static/js/2.6c0f099f.chunk.js.LICENSE.txt",
+    "static/js/2.651d581e.chunk.js.LICENSE.txt": "/qomp-game-arpetio/static/js/2.651d581e.chunk.js.LICENSE.txt",
     "static/media/hero.ef1c3d2a.png": "/qomp-game-arpetio/static/media/hero.ef1c3d2a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.25c0d7e9.js",
-    "static/js/2.6c0f099f.chunk.js",
+    "static/js/2.651d581e.chunk.js",
     "static/css/main.ad6d99d4.chunk.css",
-    "static/js/main.f79a90b2.chunk.js"
+    "static/js/main.a5f7820a.chunk.js"
   ]
 }
