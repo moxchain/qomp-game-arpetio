@@ -26,7 +26,8 @@ export const GetActor = (params: {
     if (!actor) return
     // if (actor.owner !== address) return
     // get actor speed
-    const speed = await modules.storage.getActorAttribute(actorHash, '0xa1e1b6b685242328176b47164e4710a9d7cc4909d4929234e50e9d97a9735764')
+    const speed = await modules.storage.getActorAttribute(actorHash, '0xb8e540f80463545c522611d6a11fd055e901bed49887bbafda7d6dd865b1a650')
+    console.log('Speed', speed)
     params.setActor({
       common_type: actor.commonType,
       id: actorHash,

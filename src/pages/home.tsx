@@ -6,7 +6,7 @@ import {
 } from '../atoms'
 import { Header } from '../organisms/header'
 import MyActor from '../organisms/myActor'
-import QompGame from '../game/qomp'
+import QompGame from '../game'
 import { useState } from 'react'
 
 const HomePage = () => {
@@ -20,8 +20,7 @@ const HomePage = () => {
   }
 
   if (gameStart) {
-    QompGame({endGame, speed: speed ?? 300})
-    return <></>
+    return <QompGame speed={speed ?? 300} endGame={endGame}/>
   }
 
   return <div style={{

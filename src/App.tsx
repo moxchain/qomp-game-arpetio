@@ -4,11 +4,11 @@ import Router from './Router';
 
 function App() {
 
-  // GAME HASH: 0xa6e7847f64d25001866ef595daa342d5d6e765d6372ae0decb6e6a3b321f1050
+  // GAME HASH: 0x880597947f754f2467e65c30cbefe841d97099c49a6adaf95dd97421b224bb26
 
-  // Actor HASH: 0x31cd186276e591c7ebb9db98f63d0ecb0ad028c8627cc7786671406188575748
+  // Actor HASH: 0xfe54c10c9691f03b432411d26e45bca7500af7184046c4dc1016ef7467d331b7
 
-  // Speed attribute: 0xa1e1b6b685242328176b47164e4710a9d7cc4909d4929234e50e9d97a9735764
+  // Speed attribute: 0xb8e540f80463545c522611d6a11fd055e901bed49887bbafda7d6dd865b1a650
 
   return (
     <GlobalContext>
