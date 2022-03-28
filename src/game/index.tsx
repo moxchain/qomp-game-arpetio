@@ -20,7 +20,7 @@ const QompGame = (params: {speed: number, endGame: () => void}) => {
     preload() {
       this.load.tilemapTiledJSON("level", "assets/level.json");
       this.load.image("tile", "assets/tile.png");
-      this.load.image("hero", "assets/hero.png");
+      this.load.image("hero", "assets/Brute_1.png");
       this.load.image("enemy", "assets/bomb.png");
       this.load.image("star", "assets/star.png");
     }

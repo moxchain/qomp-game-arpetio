@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react'
 import { Row } from 'react-bootstrap'
 import {
-  Button,
-  Title
+  Button
 } from '../atoms'
 import { Header } from '../organisms/header'
 import MyActor from '../organisms/myActor'
@@ -26,7 +25,6 @@ const HomePage = () => {
   }, [actor])
 
   const endGame = () => {
-    window.location.reload();
     setGameStart(false)
   }
 

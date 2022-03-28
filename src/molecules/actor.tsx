@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Image, Row } from 'react-bootstrap'
 import { Card } from '../atoms'
-import HeroImg from '../assets/hero.png'
+import HeroImg from '../assets/Brute_1.png'
 
 const Actor = (params: {
   actor: {
