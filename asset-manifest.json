@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/qomp-game-arpetio/static/css/main.ad6d99d4.chunk.css",
-    "main.js": "/qomp-game-arpetio/static/js/main.766c2100.chunk.js",
-    "main.js.map": "/qomp-game-arpetio/static/js/main.766c2100.chunk.js.map",
-    "runtime-main.js": "/qomp-game-arpetio/static/js/runtime-main.25c0d7e9.js",
-    "runtime-main.js.map": "/qomp-game-arpetio/static/js/runtime-main.25c0d7e9.js.map",
-    "static/js/2.4dcd27d9.chunk.js": "/qomp-game-arpetio/static/js/2.4dcd27d9.chunk.js",
-    "static/js/2.4dcd27d9.chunk.js.map": "/qomp-game-arpetio/static/js/2.4dcd27d9.chunk.js.map",
-    "static/js/3.24be35e1.chunk.js": "/qomp-game-arpetio/static/js/3.24be35e1.chunk.js",
-    "static/js/3.24be35e1.chunk.js.map": "/qomp-game-arpetio/static/js/3.24be35e1.chunk.js.map",
+    "main.css": "/qomp-game-arpetio/static/css/main.ebde6b74.chunk.css",
+    "main.js": "/qomp-game-arpetio/static/js/main.b9235e1d.chunk.js",
+    "main.js.map": "/qomp-game-arpetio/static/js/main.b9235e1d.chunk.js.map",
+    "runtime-main.js": "/qomp-game-arpetio/static/js/runtime-main.0e7b2bb2.js",
+    "runtime-main.js.map": "/qomp-game-arpetio/static/js/runtime-main.0e7b2bb2.js.map",
+    "static/js/2.f0130556.chunk.js": "/qomp-game-arpetio/static/js/2.f0130556.chunk.js",
+    "static/js/2.f0130556.chunk.js.map": "/qomp-game-arpetio/static/js/2.f0130556.chunk.js.map",
+    "static/js/3.920703ac.chunk.js": "/qomp-game-arpetio/static/js/3.920703ac.chunk.js",
+    "static/js/3.920703ac.chunk.js.map": "/qomp-game-arpetio/static/js/3.920703ac.chunk.js.map",
     "index.html": "/qomp-game-arpetio/index.html",
-    "static/css/main.ad6d99d4.chunk.css.map": "/qomp-game-arpetio/static/css/main.ad6d99d4.chunk.css.map",
-    "static/js/2.4dcd27d9.chunk.js.LICENSE.txt": "/qomp-game-arpetio/static/js/2.4dcd27d9.chunk.js.LICENSE.txt",
+    "static/css/main.ebde6b74.chunk.css.map": "/qomp-game-arpetio/static/css/main.ebde6b74.chunk.css.map",
+    "static/js/2.f0130556.chunk.js.LICENSE.txt": "/qomp-game-arpetio/static/js/2.f0130556.chunk.js.LICENSE.txt",
     "static/media/Brute_1.cfe096f3.png": "/qomp-game-arpetio/static/media/Brute_1.cfe096f3.png",
     "static/media/decreaseSpeedPotion.abbaf22e.png": "/qomp-game-arpetio/static/media/decreaseSpeedPotion.abbaf22e.png",
     "static/media/increaseSpeedPotion.2481880e.png": "/qomp-game-arpetio/static/media/increaseSpeedPotion.2481880e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.25c0d7e9.js",
-    "static/js/2.4dcd27d9.chunk.js",
-    "static/css/main.ad6d99d4.chunk.css",
-    "static/js/main.766c2100.chunk.js"
+    "static/js/runtime-main.0e7b2bb2.js",
+    "static/js/2.f0130556.chunk.js",
+    "static/css/main.ebde6b74.chunk.css",
+    "static/js/main.b9235e1d.chunk.js"
   ]
 }
