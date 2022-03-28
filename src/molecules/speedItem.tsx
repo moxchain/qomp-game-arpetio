@@ -43,7 +43,7 @@ const SpeedItem = (params: {
 
   const getItemBalance = async () => {
     try {
-      const balance = await modules.storage.getItemBalances(params.itemId, params.actor.id)
+      const balance = await modules.storage.getItemBalances(params.itemId, address)
       if (balance) setItemBalance(balance.amount)
     } catch (error) {
       console.log('No item balance')

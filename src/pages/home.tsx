@@ -22,7 +22,7 @@ const HomePage = () => {
 
   useEffect(()=>{
     setSpeed(actor?.speed ?? 300)
-  }, [actor])
+  }, [actor, gameStart])
 
   const endGame = () => {
     setGameStart(false)
